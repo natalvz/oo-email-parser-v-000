@@ -13,7 +13,7 @@ class EmailParser
     
     @emails.split.collect do |email|
       email.gsub(",","")
-    end
+    end.uniq
   end
     }
   
