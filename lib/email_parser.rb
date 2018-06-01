@@ -11,8 +11,8 @@ class EmailParser
   
   def parse
     
-    @emails.split.collect do {
-      
+    @emails.split.collect do |email|
+      email.gsub
     }
   
 end
