@@ -7,6 +7,6 @@ class EmailParser
   @@all = []
   def self.parse(emails)
     @emails = emails.split(/[.-]/)
-
+  end
   
 end
