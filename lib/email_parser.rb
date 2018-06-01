@@ -12,7 +12,9 @@ class EmailParser
   def parse
     
     @emails.split.collect do |email|
-      email.gsub
+      email.gsub(",","")
+    end
+  end
     }
   
 end
