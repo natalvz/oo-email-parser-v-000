@@ -10,11 +10,10 @@ class EmailParser
   end
   
   def parse
-    
     @emails.split.collect do |email|
       email.gsub(",","")
     end.uniq
   end
-    }
+
   
 end
